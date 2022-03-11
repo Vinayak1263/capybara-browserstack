@@ -5,9 +5,8 @@ key: BROWSERSTACK_ACCESS_KEY
 common_caps:
   build: capybara-browserstack
   browserstack.debug: true
-
+  browserstack.local: true
+  browserstack.localIdentifier: test
 browser_caps:
 - browser: chrome
-- browser: firefox
-- browser: internet explorer
 - browser: safari
